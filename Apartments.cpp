@@ -25,8 +25,6 @@ int r=m-1;
 long int sum=0;
 int i=n-1;
 
-
-
             while(r>=0 && i>=0){
                 if(ap_size[r]>= des_size[i]-k && ap_size[r]<=des_size[i]+k){
                     sum++;
@@ -37,8 +35,6 @@ int i=n-1;
                     if(ap_size[r]+k<des_size[i])
                     i--;
                    else r--;
-                   
-
                 }
                 
                 
